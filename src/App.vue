@@ -9,6 +9,7 @@ const state = reactive({
   req: null,
   loading: false,
 })
+
 const findProducts = async term => {
   state.loading = true
   try {
